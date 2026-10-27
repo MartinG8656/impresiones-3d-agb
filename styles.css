@@ -31,3 +31,10 @@ nav button{color:#333}nav button.active{color:#f45b16}
 .blue .time-row label{color:#555}
 .settings-card:nth-of-type(1){border-left:6px solid #5b9bd5}.settings-card:nth-of-type(2){border-left:6px solid #70ad47}.settings-card:nth-of-type(3){border-left:6px solid #ed7d31}.settings-card:nth-of-type(4){border-left:6px solid #ffc000}
 .settings-card:nth-of-type(1) h2{color:#3f82bd}.settings-card:nth-of-type(2) h2{color:#5b9637}.settings-card:nth-of-type(3) h2{color:#d86a23}.settings-card:nth-of-type(4) h2{color:#b78600}
+
+/* v1.8 - presupuesto + historial + jerarquia completa de Configuracion */
+.settings-card:nth-of-type(1) label{color:#3f82bd}.settings-card:nth-of-type(2) label{color:#5b9637}.settings-card:nth-of-type(3) label{color:#d86a23}.settings-card:nth-of-type(4) label{color:#b78600}
+.settings-card input{color:#222}.settings-card .muted{color:#666}
+.historyHead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.historyHead>b,.historyHead strong{font-size:17px}.historyHead strong{color:#e95019;white-space:nowrap}.historyUnit{margin-top:8px;color:#555}.historyActions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin-top:12px}.historyActions button{padding:9px 6px}.emptyHistory{background:#fff;border-radius:14px;padding:24px;text-align:center;color:#555}.emptyHistory b,.emptyHistory span{display:block}.emptyHistory span{font-size:13px;margin-top:6px;color:#777}
+.budgetProduct{font-size:24px;font-weight:800;margin:24px 0 14px}.budgetTotal{display:flex;justify-content:space-between;align-items:center;border-top:2px solid #ff6a00;border-bottom:2px solid #ff6a00;padding:16px 0;margin:18px 0;color:#222;font-size:20px}.budgetTotal strong{font-size:30px;color:#e95019}.budgetValidity{background:#fff4ec;border-left:5px solid #ff6a00;border-radius:8px;padding:12px;font-weight:750;margin-top:18px}.budgetNote{text-align:center;color:#666;margin:24px 0 4px}
+@media(max-width:560px){nav button{font-size:12.5px;padding:13px 2px}.historyActions{grid-template-columns:1fr 1fr}.historyActions .danger{grid-column:1/-1}.budget{padding:18px}.budgetProduct{font-size:21px}.budgetTotal strong{font-size:27px}}
