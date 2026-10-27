@@ -10,3 +10,11 @@ html{-webkit-text-size-adjust:100%}body{min-width:0}header{padding-top:max(12px,
 /* v1.5 - tiempos de trabajo + configuracion completa */
 .work-time{grid-column:1/-1;display:flex;flex-direction:column;gap:6px}.work-time>span{font-size:13px;font-weight:650}.work-time .time-row{grid-column:auto}.settings-intro{color:#666;margin:0 2px 12px}.settings-card h2{font-size:18px}.settings-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.settings-list label{min-width:0}.settings-actions{display:flex;gap:8px;margin:14px 0 28px}.danger-outline{background:#fff;color:#b42318;border:1px solid #b42318}.percent-input{display:grid;grid-template-columns:1fr auto;align-items:center;gap:8px}.percent-input span{font-size:16px;color:#666}
 @media(max-width:560px){.settings-list{grid-template-columns:1fr}.settings-actions{flex-direction:column}.work-time .time-row{grid-template-columns:1fr 1fr}}
+
+/* v1.6 - jerarquia visual + navegacion Configuracion */
+.quote-name{font-size:13px;font-weight:750;color:#555}.quote-name input{color:#222;font-size:17px;font-weight:750}
+.blue h2,.blue .section-label{color:#3f82bd}.green h2,.green .work-time>span{color:#5b9637}.orange h2{color:#d86a23}.yellow h2{color:#b78600}
+.work-time>span{font-size:15px;font-weight:800;margin-top:2px}.work-time .time-row label{font-size:12px;font-weight:650;color:#555}
+.blue .time-row label{font-size:12px;font-weight:650;color:#555}
+nav button{min-width:0}nav button[data-view="settings"]{white-space:nowrap}
+@media(max-width:560px){nav button{font-size:14px;padding:13px 6px}.quote-name{font-size:12px}.work-time>span{font-size:15px}}
