@@ -1,0 +1,1 @@
+const C='agb-v1';const F=['./','index.html','styles.css','app.js','manifest.json','assets/logo.png'];self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(F))));self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));
