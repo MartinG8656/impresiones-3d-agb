@@ -4,6 +4,6 @@
 html{-webkit-text-size-adjust:100%}body{min-width:0}header{padding-top:max(12px,env(safe-area-inset-top));}header div{min-width:0}header b{font-size:16px;line-height:1.15}header small{font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}main{padding:10px 10px calc(20px + env(safe-area-inset-bottom))}.card{overflow:hidden}.grid>*{min-width:0}input,select{font-size:16px}label{display:flex;flex-direction:column;gap:5px}.top button,.top input{min-height:48px}.metric{gap:16px}.metric span:last-child{text-align:right;font-weight:700}.price strong{line-height:1.05}nav{overflow:hidden}
 @media(max-width:560px){header img{width:42px;height:42px}nav{top:67px}.card{padding:13px;border-radius:14px}.card h2{font-size:20px}.grid{gap:12px}.top{gap:10px}.top button{order:2}.top input{order:1}.result .actions button{min-height:48px}.price strong{font-size:31px}}
 
-/* v1.3: carga rápida */
-.time-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;min-width:0}.time-pair label{min-width:0}
-@media(max-width:560px){.time-pair{gap:12px}}
+/* v1.4 - carga rapida + jerarquia de precios */
+.time-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;grid-column:1/-1}.calc-price{text-align:center;padding:18px 14px 4px;margin-top:8px}.calc-price span{display:block;font-size:16px;color:#444}.calc-price strong{display:block;font-size:27px;line-height:1.1;color:#444;margin-top:3px}.price{padding-top:12px}.price strong{font-size:38px}
+@media(max-width:560px){.time-row{gap:12px}.calc-price strong{font-size:26px}.price strong{font-size:36px}}
