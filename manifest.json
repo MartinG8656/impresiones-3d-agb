@@ -1,1 +1,1 @@
-{"name":"Impresiones 3D AGB","short_name":"3D AGB","start_url":"./","display":"standalone","background_color":"#ffffff","theme_color":"#ff6a00","icons":[{"src":"assets/logo.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
+{"name":"Impresiones 3D AGB","short_name":"3D AGB","start_url":"./","display":"standalone","background_color":"#ffffff","theme_color":"#ff6a00","icons":[{"src":"./logo.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
