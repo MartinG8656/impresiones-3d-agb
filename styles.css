@@ -18,3 +18,16 @@ html{-webkit-text-size-adjust:100%}body{min-width:0}header{padding-top:max(12px,
 .blue .time-row label{font-size:12px;font-weight:650;color:#555}
 nav button{min-width:0}nav button[data-view="settings"]{white-space:nowrap}
 @media(max-width:560px){nav button{font-size:14px;padding:13px 6px}.quote-name{font-size:12px}.work-time>span{font-size:15px}}
+
+/* v1.7 - navegación visible + jerarquía de títulos por sección */
+nav button{color:#333}nav button.active{color:#f45b16}
+.blue>.grid>label:not(.time-row label){color:#3f82bd}
+.green>.grid>label{color:#5b9637}
+.green .work-time>span{color:#5b9637}
+.green .work-time .time-row label{color:#555}
+.orange>.grid>label{color:#d86a23}
+.yellow>.grid>label{color:#b78600}
+.blue>.grid>label select,.blue>.grid>label input,.green>.grid>label select,.green>.grid>label input,.orange>.grid>label input,.yellow>.grid>label select,.yellow>.grid>label input{color:#222}
+.blue .time-row label{color:#555}
+.settings-card:nth-of-type(1){border-left:6px solid #5b9bd5}.settings-card:nth-of-type(2){border-left:6px solid #70ad47}.settings-card:nth-of-type(3){border-left:6px solid #ed7d31}.settings-card:nth-of-type(4){border-left:6px solid #ffc000}
+.settings-card:nth-of-type(1) h2{color:#3f82bd}.settings-card:nth-of-type(2) h2{color:#5b9637}.settings-card:nth-of-type(3) h2{color:#d86a23}.settings-card:nth-of-type(4) h2{color:#b78600}
