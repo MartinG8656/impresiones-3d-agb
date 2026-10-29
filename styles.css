@@ -38,3 +38,12 @@ nav button{color:#333}nav button.active{color:#f45b16}
 .historyHead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.historyHead>b,.historyHead strong{font-size:17px}.historyHead strong{color:#e95019;white-space:nowrap}.historyUnit{margin-top:8px;color:#555}.historyActions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin-top:12px}.historyActions button{padding:9px 6px}.emptyHistory{background:#fff;border-radius:14px;padding:24px;text-align:center;color:#555}.emptyHistory b,.emptyHistory span{display:block}.emptyHistory span{font-size:13px;margin-top:6px;color:#777}
 .budgetProduct{font-size:24px;font-weight:800;margin:24px 0 14px}.budgetTotal{display:flex;justify-content:space-between;align-items:center;border-top:2px solid #ff6a00;border-bottom:2px solid #ff6a00;padding:16px 0;margin:18px 0;color:#222;font-size:20px}.budgetTotal strong{font-size:30px;color:#e95019}.budgetValidity{background:#fff4ec;border-left:5px solid #ff6a00;border-radius:8px;padding:12px;font-weight:750;margin-top:18px}.budgetNote{text-align:center;color:#666;margin:24px 0 4px}
 @media(max-width:560px){nav button{font-size:12.5px;padding:13px 2px}.historyActions{grid-template-columns:1fr 1fr}.historyActions .danger{grid-column:1/-1}.budget{padding:18px}.budgetProduct{font-size:21px}.budgetTotal strong{font-size:27px}}
+
+
+/* v1.9 - ajustes de uso real: jerarquia, redondeo y plazo de entrega */
+.quote-name{font-size:16px;font-weight:800;color:#e95019}.quote-name input{color:#222;font-size:17px}
+nav button{font-size:16px}
+.yellow label small{color:#777;font-weight:600;margin-top:2px}
+.budgetDelivery{background:#fff4ec;border-left:5px solid #ff6a00;border-radius:8px;padding:12px;font-weight:750;margin-top:10px}
+@media(max-width:560px){nav button{font-size:14px;padding:13px 3px}.quote-name{font-size:15px}.budgetDelivery{font-size:14px}}
+@media print{.budgetValidity,.budgetDelivery{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;background:#fff4ec!important;border-left:5px solid #ff6a00!important}}
