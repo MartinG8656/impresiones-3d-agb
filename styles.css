@@ -47,3 +47,11 @@ nav button{font-size:16px}
 .budgetDelivery{background:#fff4ec;border-left:5px solid #ff6a00;border-radius:8px;padding:12px;font-weight:750;margin-top:10px}
 @media(max-width:560px){nav button{font-size:14px;padding:13px 3px}.quote-name{font-size:15px}.budgetDelivery{font-size:14px}}
 @media print{.budgetValidity,.budgetDelivery{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;background:#fff4ec!important;border-left:5px solid #ff6a00!important}}
+
+/* v1.9.1 - bloque 0 Cotizacion */
+.quote-card{border-left:6px solid #ff6a00}
+.quote-card h2{color:#e95019}
+.quote-card .quote-name{color:#e95019}
+.quote-card .grid{grid-template-columns:1fr}
+.quote-actions{display:block}
+.quote-actions button{min-height:48px}
